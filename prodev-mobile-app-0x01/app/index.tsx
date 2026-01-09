@@ -3,6 +3,7 @@ import { Text, View, StyleSheet } from 'react-native';
 export default function Index() {
   return (
     <View style={styles.container}>
+      <Text>Entry Screen - Awesome</Text>
       <Text style={styles.largeText}>
         Typescript is great if you practice more
       </Text>
@@ -18,26 +19,26 @@ export default function Index() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "90caf9",
+    backgroundColor: '90caf9',
   },
   largeText: {
     fontSize: 30,
-    color: "#f44336",
+    color: '#f44336',
     marginBottom: 5,
-    fontWeight: "700",
-    fontVariant: ["small-caps"],
+    fontWeight: '700',
+    fontVariant: ['small-caps'],
   },
   mediumText: {
     fontSize: 20,
-    color: "#9c27b0",
+    color: '#9c27b0',
     marginBottom: 5,
-    fontWeight: "500",
-    textAlign: "right",
+    fontWeight: '500',
+    textAlign: 'right',
   },
   smallText: {
     fontSize: 15,
-    color: "#2196f3",
-    fontWeight: "400",
-    textAlign: "center",
-  }
-})
+    color: '#2196f3',
+    fontWeight: '400',
+    textAlign: 'center',
+  },
+});
